@@ -19,6 +19,8 @@ The data was preprocessed and split into:
 
 ## 💡 Methods & Models
 
+Ran models on both local IDE and Google Colab
+
 ### 1. **Logistic Regression with TF-IDF (BOW Baseline)**
 - Simple and fast to implement.
 - Used `TfidfVectorizer` (10,000 features, stopword removal).
