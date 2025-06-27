@@ -70,7 +70,7 @@ The data was preprocessed and split into:
    ```bash
    python scripts/2. Train_Test_Val_Split_Folders.py
 
-3. Run classic ML (BOW):
+3. Run classic LR or any model of your choice!:
    ```bash
    python scripts/7. BOW_with_Logistic_Regression.py
 
