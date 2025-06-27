@@ -60,41 +60,6 @@ The data was preprocessed and split into:
 
 ---
 
-## 📁 Project Structure
-
-sms-spam-detection-nlp/
-│
-├── data/ # SMS dataset (CSV)
-│ └── SMS_Spam.csv
-│
-├── dataset_splits/ # Train/Val/Test split folders
-│
-├── notebooks/ # Jupyter notebooks for transformer models
-│ ├── Fine_Tuning_Bert_Uncased.ipynb
-│ ├── Fine_Tuning_Electra.ipynb
-│ └── Zero_Shot_Classification.ipynb
-│
-├── scripts/ # Python scripts for preprocessing & classic ML
-│ ├── 1. Reading_Parquet_File.py
-│ ├── 2. Train_Test_Val_Split_Folders.py
-│ ├── 3. Model_Training_and_Save.py
-│ ├── 7. BOW_with_Logistic_Regression.py
-│
-├── models/ # Saved models and vectorizers
-│ ├── logistic_regression_model.joblib
-│ └── tfidf_vectorizer.joblib
-│
-├── reports/ # Course reports and write-ups
-│ ├── HW3_Report.docx
-│ ├── HW3_Report.pdf
-│ └── Homework_3_Thoughts_and_Steps.docx
-│
-├── README.md
-└── .gitignore
-
-
----
-
 ## 🚀 How to Run
 
 1. **Install dependencies**:
@@ -117,6 +82,8 @@ sms-spam-detection-nlp/
 Hugging Face Transformers: https://huggingface.co/docs/transformers
 
 Dataset origin: SMS Spam Collection | UCI Machine Learning Repository
+Cloned from [Hugging Face: ucirvine/sms_spam](https://huggingface.co/datasets/ucirvine/sms_spam)
+   - Converted from `.parquet` to `.csv` for easier readability and flexibility.
 
 ## 🙌 Author
 
